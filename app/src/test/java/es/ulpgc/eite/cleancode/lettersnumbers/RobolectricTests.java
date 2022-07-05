@@ -16,7 +16,6 @@ public class RobolectricTests {
   RobolectricSteps steps = new RobolectricSteps();
 
 
-
   ////////// PORTRAIT TESTS //////////
 
 
