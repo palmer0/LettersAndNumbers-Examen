@@ -21,7 +21,7 @@ public class RobolectricTests {
 
 
   @Test
-  public void testCrearPrimeraLetra() { // 1
+  public void test01_CrearPrimeraLetra() { // 1
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -36,7 +36,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearSegundaLetra() { // 2
+  public void test02_CrearSegundaLetra() { // 2
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -55,7 +55,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testPulsarEnSegundaLetra() { // 3
+  public void test03_PulsarEnSegundaLetra() { // 3
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -75,7 +75,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearPrimerNumeroParaSegundaLetra() { // 4
+  public void test04_CrearPrimerNumeroParaSegundaLetra() { // 4
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -99,7 +99,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearSegundoNumeroParaSegundaLetra() { // 5
+  public void test05_CrearSegundoNumeroParaSegundaLetra() { // 5
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -127,7 +127,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testRegresarDesdeSegundoNumeroParaSegundaLetra() { // 6
+  public void test06_RegresarDesdeSegundoNumeroParaSegundaLetra() { // 6
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -157,7 +157,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearTercerLetra() { // 7
+  public void test07_CrearTercerLetra() { // 7
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -191,7 +191,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testPulsarEnTerceraLetra() { // 8
+  public void test08_PulsarEnTerceraLetra() { // 8
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -225,7 +225,7 @@ public class RobolectricTests {
 
 
   @Test
-  public void testRegresarDesdePrimerNumeroParaTerceraLetra() { // 9
+  public void test09_RegresarDesdePrimerNumeroParaTerceraLetra() { // 9
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -268,7 +268,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testPulsarEnPrimeraLetra() { // 10
+  public void test10_PulsarEnPrimeraLetra() { // 10
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -311,7 +311,7 @@ public class RobolectricTests {
 
 
   @Test
-  public void testRegresarDesdePrimerNumeroParaPrimeraLetra() { // 11
+  public void test11_RegresarDesdePrimerNumeroParaPrimeraLetra() { // 11
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -366,7 +366,7 @@ public class RobolectricTests {
 
 
   @Test
-  public void testCrearPrimeraLetraConRotacion() { // 12
+  public void test12_CrearPrimeraLetraConRotacion() { // 12
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -385,7 +385,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearSegundaLetraConRotacion() { // 13
+  public void test13_CrearSegundaLetraConRotacion() { // 13
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -408,7 +408,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testPulsarEnSegundaLetraConRotacion() { // 14
+  public void test14_PulsarEnSegundaLetraConRotacion() { // 14
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -422,7 +422,7 @@ public class RobolectricTests {
     steps.pulsamosCeldaDeLetraEnPosicionP1("1");
 
     steps.iniciamosPantallaP1("Numbers");
-    
+
     // When rotamos pantalla
     steps.rotarPantallaP1("Letters");
 
@@ -431,7 +431,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearPrimerNumeroParaSegundaLetraConRotacion() { // 15
+  public void test15_CrearPrimerNumeroParaSegundaLetraConRotacion() { // 15
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -459,7 +459,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearSegundoNumeroParaSegundaLetraConRotacion() { // 16
+  public void test16_CrearSegundoNumeroParaSegundaLetraConRotacion() { // 16
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -491,7 +491,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testRegresarDesdeSegundoNumeroParaSegundaLetraConRotacion() { // 17
+  public void test17_RegresarDesdeSegundoNumeroParaSegundaLetraConRotacion() { // 17
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -525,7 +525,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testCrearTercerLetraConRotacion() { // 18
+  public void test18_CrearTercerLetraConRotacion() { // 18
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -563,7 +563,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testPulsarEnTerceraLetraConRotacion() { // 19
+  public void test19_PulsarEnTerceraLetraConRotacion() { // 19
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -600,7 +600,7 @@ public class RobolectricTests {
 
 
   @Test
-  public void testRegresarDesdePrimerNumeroParaTerceraLetraConRotacion() { // 20
+  public void test20_RegresarDesdePrimerNumeroParaTerceraLetraConRotacion() { // 20
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -647,7 +647,7 @@ public class RobolectricTests {
   }
 
   @Test
-  public void testPulsarEnPrimeraLetraConRotacion() { // 21
+  public void test21_PulsarEnPrimeraLetraConRotacion() { // 21
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -693,7 +693,7 @@ public class RobolectricTests {
 
 
   @Test
-  public void testRegresarDesdePrimerNumeroParaPrimeraLetraConRotacion() { // 22
+  public void test22_RegresarDesdePrimerNumeroParaPrimeraLetraConRotacion() { // 22
 
     steps.iniciamosPantallaP1("Letters");
 
@@ -747,5 +747,7 @@ public class RobolectricTests {
     // And mostramos lista de letras con dimension "3"
     steps.mostramosListaDeLetrasConDimensionP1("3");
   }
+
+
 
 }
