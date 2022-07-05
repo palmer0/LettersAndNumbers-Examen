@@ -13,7 +13,6 @@ import org.robolectric.RobolectricTestRunner;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class RobolectricTests {
 
-
   RobolectricSteps steps = new RobolectricSteps();
 
 
@@ -747,7 +746,5 @@ public class RobolectricTests {
     // And mostramos lista de letras con dimension "3"
     steps.mostramosListaDeLetrasConDimensionP1("3");
   }
-
-
 
 }
