@@ -19,6 +19,7 @@ public class RobolectricTests {
 
   ////////// PORTRAIT TESTS //////////
 
+
   @Test
   public void test01_CrearPrimeraLetra() { // 1
 
